@@ -7,7 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/slick.css">
-  <!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
             <a href="tel:+7 (495) 42-251-31" class="navbar__phone">+7 (495) 42-251-31</a>
           </div>
           <!-- /.navbar__contacts -->
-          <button class="button navbar__button" id="button">Перезвоните мне</button>
+          <button class="button navbar__button wow tada" id="button">Перезвоните мне</button>
         </div>
         <!-- /.navbar__info -->
       </div>
@@ -35,7 +35,7 @@
   <!-- /.navbar -->
  
   <main>
-    <section class="hero section">
+    <section class="hero section wow zoomIn">
       <div class="container">
         <div class="hero-block">
           <div class="hero-text">
@@ -75,7 +75,7 @@
     </section>
     <!-- /.hero -->
 
-    <section class="offer section">
+    <section class="offer section wow fadeInLeft" data-wow-delay="0.7s">
       <div class="container">
         <div class="offer-block">
           <h2 class="section-title offer__title">
@@ -113,7 +113,7 @@
           Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах
         </h2>
 
-        <div class="slider">
+        <div class="slider wow rollIn">
           <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-1.jpg" alt=""></div>
           <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-2.jpg" alt=""></div>
           <div class="slider__item"><img class="slider__image" src="img/portfolio/slider-3.jpg" alt=""></div>
@@ -144,42 +144,42 @@
         <!-- /.section-subtitle price__subtitle -->
 
         <div class="cards">
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.1s">
             <div class="card__image"><img src="img/price/bathroom.png" alt=""></div>
             <div class="card__text">
               <h4 class="card__title">Ремонт ванных комнат и с/у</h4>
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.2s">
             <div class="card__image"><img src="img/price/living.png" alt=""></div>
             <div class="card__text">
               <h4 class="card__title">Ремонт комнат и квартир</h4>
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.3s">
             <div class="card__image"><img src="img/price/office.png" alt=""></div>
             <div class="card__text">
               <h4 class="card__title">Отделка офисных помещений</h4>
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.4s">
             <div class="card__image"><img src="img/price/buildings.png" alt=""></div>
             <div class="card__text">
               <h4 class="card__title">Ремонт в новостройках</h4>
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.5s">
             <div class="card__image"><img src="img/price/kitchen.png" alt=""></div>
             <div class="card__text">
               <h4 class="card__title">Ремонт кухонь</h4>
               <a href="#" class="card__link">Узнать цены</a>
             </div>
           </div>
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.6s">
             <div class="card__image"><img src="img/price/houses.png" alt=""></div>
             <div class="card__text">
               <h4 class="card__title">Ремонт дач и коттеджей</h4>
@@ -192,7 +192,49 @@
     </section>
     <!-- /.section price -->
 
+    <section class="section steps">
+      <div class="container">
+        <h2 class="section-title steps__title">Наши специалисты готовы выехать на замер в любое удобное для Вас время</h2>
+        <!-- /.section-title steps__title -->
+        <span class="section-subtitle steps__subtitle">5 шагов до ремонта</span>
+        <!-- /.section-subtitle steps__subtitle -->
 
+        <div class="steps-block">
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/woman.png" alt="Девушка">
+            </div>
+            <p class="step__text">Вы звоните нам или оставляете заявку</p>
+          </div>
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/wall-clock.png" alt="Часы">
+            </div>
+            <p class="step__text">Согласуем удобное для Вас время выезда специалиста на замер</p>
+          </div>
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/many.png" alt="Деньги">
+            </div>
+            <p class="step__text">Рассчитываем смету согласовываем с Вами</p>
+          </div>
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/folded-document-icon.png" alt="Документ">
+            </div>
+            <p class="step__text">Подписываем договор закупаем материал по оптовым ценам</p>
+          </div>
+          <div class="step">
+            <div class="step__image">
+              <img src="img/steps/calendar.png" alt="Календарь">
+            </div>
+            <p class="step__text">Выполняем ремонт в указанные сроки</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section steps -->
 
   </main>
 
@@ -210,6 +252,12 @@
   <script src="js/modal.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
+
   <script>
     $(document).ready(function() {
       $('.slider').slick({
